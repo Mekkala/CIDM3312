@@ -1,0 +1,9 @@
+C:\CIDM3312\Assignment\CalculatorLibrary\bin\Debug\netstandard2.0\CalculatorLibrary.deps.json
+C:\CIDM3312\Assignment\CalculatorLibrary\bin\Debug\netstandard2.0\CalculatorLibrary.dll
+C:\CIDM3312\Assignment\CalculatorLibrary\bin\Debug\netstandard2.0\CalculatorLibrary.pdb
+C:\CIDM3312\Assignment\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.csprojAssemblyReference.cache
+C:\CIDM3312\Assignment\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.csproj.CoreCompileInputs.cache
+C:\CIDM3312\Assignment\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.AssemblyInfoInputs.cache
+C:\CIDM3312\Assignment\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.AssemblyInfo.cs
+C:\CIDM3312\Assignment\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.dll
+C:\CIDM3312\Assignment\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.pdb
