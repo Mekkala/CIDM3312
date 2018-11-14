@@ -6,39 +6,48 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MyWebCalculator.Models;
 
+
 using CalculatorLibrary;
 
 namespace MyWebCalculator.Controllers
 {
     public class CalculatorController : Controller
     {
-        public string Add(decimal left, decimal right)
+        public IActionResult Add(decimal left, decimal right)
         {
-
-            MyMath cal = new MyMath();
-            decimal value = cal.Add(left, right);
-            return $"{left} plus {right} is {left + right}";
+            
+            ViewData["Left"] = left;
+            ViewData["Right"] = right;
+            ViewData["Add Result"] = $"{left} plus {right} is {left + right}";
+            return View();
+            
         }
 
-        public string Subtract(decimal left, decimal right)
+        public IActionResult Subtract(decimal left, decimal right)
         {
-            MyMath cal = new MyMath();
-            decimal value = cal.Subtract(left, right);
-            return $"{left} Minus {right} is {left - right}";
+            ViewData["Left"] = left;
+            ViewData["Right"] = right;
+            ViewData["Subtract Result"] = $"{left} Minus {right} is {left - right}";
+            return View();
+            
         }
 
-        public string Multiply(decimal left, decimal right)
+        public IActionResult Multiply(decimal left, decimal right)
         {
-            MyMath cal = new MyMath();
-            decimal value = cal.Multiply(left, right);
-            return $"{left} Multiply by {right} is {left * right}";
+            ViewData["Left"] = left;
+            ViewData["Right"] = right;
+            ViewData["Multiply Result"] = $"{left} Multiply by {right} is {left * right}";
+            return View();
+            
         }
 
-        public string Divide(decimal left, decimal right)
+        public IActionResult Divide(decimal left, decimal right)
         {
-            MyMath cal = new MyMath();
-            decimal value = cal.Divide(left, right);
-            return $"{left} Divided by {right} is {left / right}";
+            ViewData["Left"] = left;
+            ViewData["Right"] = right;
+            ViewData["Divide Result"] = $"{left} Divided by {right} is {left / right}";
+            return View();
+           
         }
 
         public string Power(double x, double y)
@@ -60,10 +69,7 @@ namespace MyWebCalculator.Controllers
             MyMath cal = new MyMath();
             decimal result = Math.Floor(number);
             return  $"The flooring of {number} is {result}";
-        }
-
-            
-            
+        }    
             
     }
 }
