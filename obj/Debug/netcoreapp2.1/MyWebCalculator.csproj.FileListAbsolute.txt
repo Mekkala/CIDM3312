@@ -31,3 +31,7 @@ C:\CIDM3312\Assignment\MyWebCalculator\obj\Debug\netcoreapp2.1\MyWebCalculator.d
 C:\CIDM3312\Assignment\MyWebCalculator\obj\Debug\netcoreapp2.1\MyWebCalculator.pdb
 C:\CIDM3312\Assignment\MyWebCalculator\obj\Debug\netcoreapp2.1\MyWebCalculator.csproj.CopyComplete
 C:\CIDM3312\Assignment\MyWebCalculator\bin\Debug\netcoreapp2.1\CalculatorLibrary.dll
+C:\CIDM3312\Assignment\MyWebCalculator\obj\Debug\netcoreapp2.1\Razor\Views\Converter\Add.g.cshtml.cs
+C:\CIDM3312\Assignment\MyWebCalculator\obj\Debug\netcoreapp2.1\Razor\Views\Converter\Divide.g.cshtml.cs
+C:\CIDM3312\Assignment\MyWebCalculator\obj\Debug\netcoreapp2.1\Razor\Views\Converter\Multiply.g.cshtml.cs
+C:\CIDM3312\Assignment\MyWebCalculator\obj\Debug\netcoreapp2.1\Razor\Views\Converter\Subtract.g.cshtml.cs
