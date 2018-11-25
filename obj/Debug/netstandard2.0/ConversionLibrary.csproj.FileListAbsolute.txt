@@ -1,0 +1,9 @@
+C:\CIDM3312\Assignment\ConversionLibrary\bin\Debug\netstandard2.0\ConversionLibrary.deps.json
+C:\CIDM3312\Assignment\ConversionLibrary\bin\Debug\netstandard2.0\ConversionLibrary.dll
+C:\CIDM3312\Assignment\ConversionLibrary\bin\Debug\netstandard2.0\ConversionLibrary.pdb
+C:\CIDM3312\Assignment\ConversionLibrary\obj\Debug\netstandard2.0\ConversionLibrary.csprojAssemblyReference.cache
+C:\CIDM3312\Assignment\ConversionLibrary\obj\Debug\netstandard2.0\ConversionLibrary.csproj.CoreCompileInputs.cache
+C:\CIDM3312\Assignment\ConversionLibrary\obj\Debug\netstandard2.0\ConversionLibrary.AssemblyInfoInputs.cache
+C:\CIDM3312\Assignment\ConversionLibrary\obj\Debug\netstandard2.0\ConversionLibrary.AssemblyInfo.cs
+C:\CIDM3312\Assignment\ConversionLibrary\obj\Debug\netstandard2.0\ConversionLibrary.dll
+C:\CIDM3312\Assignment\ConversionLibrary\obj\Debug\netstandard2.0\ConversionLibrary.pdb

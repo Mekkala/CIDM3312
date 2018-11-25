@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\CIDM3312\\Assignment\\ConversionLibrary\\ConversionLibrary.csproj",
+  "TargetFramework": "netstandard2.0",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
