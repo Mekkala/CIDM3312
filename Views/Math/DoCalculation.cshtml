@@ -1,0 +1,46 @@
+@model Midterm2.Models.MathOperation
+
+ <form asp-controller="Math" asp-action="ShowCalculationResults" class="form-horizontal" method="POST">
+  <fieldset>
+ 
+
+<!-- Form Name -->
+<legend>Math Operation</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Number1">Enter Number </label>  
+  <div class="col-md-4">
+  <input asp-for="@Model.LeftOperand" name="Number1" type="text" placeholder="1" class="form-control input-md">
+  <span class="help-block">Please enter number to calculate</span>  
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="number2">Enter Number</label>  
+  <div class="col-md-4">
+  <input asp-for="@Model.RightOperand" name="number2" type="text" placeholder="1" class="form-control input-md">
+  <span class="help-block">Please enter number to calculate</span>  
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="number3">Enter Number</label>  
+  <div class="col-md-4">
+  <input asp-for="@Model.Operator" name="number3" type="text" placeholder="+ - * /" class="form-control input-md">
+  <span class="help-block">Please enter number to calculate</span>  
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Result">Result</label>
+  <div class="col-md-4">
+    <button asp-for="@Model.Result" name="Result" class="btn btn-primary">Go!</button>
+  </div>
+</div>
+
+</fieldset>
+</form>

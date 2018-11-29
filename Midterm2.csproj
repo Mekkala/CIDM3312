@@ -9,6 +9,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" />
   </ItemGroup>
 
-  
+  <ItemGroup>
+    <ProjectReference Include="..\MathLibrary\MathLibrary.csproj" />
+  </ItemGroup>
 
 </Project>
